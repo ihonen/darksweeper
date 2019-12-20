@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/tile_clear_1.jpg</file>
+        <file>img/tile_clear_2.jpg</file>
+        <file>img/tile_clear_3.jpg</file>
+        <file>img/tile_clear_4.jpg</file>
+        <file>img/tile_clear_5.jpg</file>
+        <file>img/tile_clear_6.jpg</file>
+        <file>img/tile_clear_7.jpg</file>
+        <file>img/tile_clear_8.jpg</file>
+        <file>img/tile_clear_0.jpg</file>
+        <file>img/tile_default.jpg</file>
+        <file>img/tile_flagged.jpg</file>
+        <file>img/tile_revealed_false_flag.jpg</file>
+        <file>img/tile_revealed_exploded.jpg</file>
+        <file>img/tile_revealed_mine.jpg</file>
+        <file>img/tile_question_mark.jpg</file>
+        <file>img/tile_question_mark2.jpg</file>
+        <file>img/game_icon_large.png</file>
+        <file>img/game_icon_small.jpg</file>
+        <file>img/game_icon_large.jpg</file>
+        <file>img/smiley_dead.jpg</file>
+        <file>img/smiley_cool.jpg</file>
+        <file>img/smiley_worried.jpg</file>
+        <file>img/smiley_happy_pressed.jpg</file>
+        <file>img/smiley_happy.jpg</file>
+        <file>img/lcd_0.jpg</file>
+        <file>img/lcd_9.jpg</file>
+        <file>img/lcd_8.jpg</file>
+        <file>img/lcd_7.jpg</file>
+        <file>img/lcd_6.jpg</file>
+        <file>img/lcd_5.jpg</file>
+        <file>img/lcd_4.jpg</file>
+        <file>img/lcd_3.jpg</file>
+        <file>img/lcd_2.jpg</file>
+        <file>img/lcd_1.jpg</file>
+        <file>img/smiley_cool_pressed.jpg</file>
+        <file>img/smiley_dead_pressed.jpg</file>
+        <file>img/smiley_worried_pressed.jpg</file>
+    </qresource>
+</RCC>
