@@ -7,7 +7,10 @@ SmileyButton::SmileyButton(QWidget* parent) :
     m_status(SmileyButton::Status::HAPPY)
 {
     this->setPixmap(QPixmap(IMG_SMILEY_HAPPY));
-    this->resize(this->pixmap()->width(), this->pixmap()->height());
+    //this->resize(this->pixmap()->width(), this->pixmap()->height());
+
+    QPixmap pixmap = this->pixmap(Qt::ReturnByValueConstant::ReturnByValue);
+    this->resize(pixmap.width(), pixmap.height());
 }
 
 void SmileyButton::set_status(SmileyButton::Status status)

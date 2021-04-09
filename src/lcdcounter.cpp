@@ -3,6 +3,8 @@
 #include "images.hh"
 #include <QLayout>
 
+#include <iostream>
+
 LcdCounter::LcdCounter(int value, QWidget* parent) :
     QWidget(parent),
     m_value(value),
@@ -19,11 +21,8 @@ LcdCounter::LcdCounter(int value, QWidget* parent) :
 
 bool LcdCounter::set_value(int value)
 {
-    // TODO: Negative numbers.
-    // Enforce 0 <= m_value <= m_max_value.
     m_value = std::max(0, std::min(value, m_max_value));
-
-    m_value = value;
+    std::cout << m_value << std::endl;
     this->refresh_digits();
     return true;
 }
@@ -44,7 +43,7 @@ void LcdCounter::refresh_digits()
 {
     int value_temp = m_value;
 
-    int hundreds = m_value / 100;
+    int hundreds = value_temp / 100;
     value_temp -= hundreds * 100;
 
     int tens = value_temp / 10;
