@@ -2,7 +2,7 @@
 
 The only thing better than Minesweeper is Minesweeper in dark mode.
 
-![](assets/game.jpg)
+![](assets/game.png)
 
 Developed with:
 - Qt 5.15.2
